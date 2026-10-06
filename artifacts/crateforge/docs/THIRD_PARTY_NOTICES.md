@@ -1,5 +1,5 @@
 # Third-party notices
-Generated on 2026-10-04 from the resolved Drop Theory Pro dependency tree. This is an automated inventory, not legal advice. It does not scan model weights, media assets, fonts, operating-system codecs, or external runtimes.
+Generated on 2026-10-06 from the resolved Drop Theory Pro dependency tree. This is an automated inventory, not legal advice. It does not scan model weights, media assets, fonts, operating-system codecs, or external runtimes.
 Summary: 248 package/version entries; 0 need a license or replacement; 19 require manual review.
 ## Inventory
 | Package | Version | Declared license | Review status | Source |

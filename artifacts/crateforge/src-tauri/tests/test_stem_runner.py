@@ -538,9 +538,9 @@ class LocalHubFixture:
 
                 if should_interrupt:
                     if not fixture.interrupt_always:
-                        # Leave enough bytes for the Hub downloader to retain a
-                        # genuine partial file before the simulated connection drop.
-                        self.wfile.write(content[range_start:range_start + 8192])
+                        # Exceed Python's buffered-write size so the Hub downloader's
+                        # partial bytes are visible to stat() while the file is open.
+                        self.wfile.write(content[range_start:range_start + 32 * 1024])
                         self.wfile.flush()
                         fixture.interrupted.set()
                         fixture.release_interruption.wait(30)
