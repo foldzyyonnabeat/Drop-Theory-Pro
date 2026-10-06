@@ -1,0 +1,59 @@
+# See https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+
+# compiled output
+dist
+tmp
+out-tsc
+*.tsbuildinfo
+artifacts/crateforge/src-tauri/target/
+artifacts/crateforge/src-tauri/resources/stem-runtime/
+artifacts/crateforge/src-tauri/resources/.stem-runtime-staging-*/
+artifacts/crateforge/src-tauri/resources/stem-models/
+artifacts/crateforge/src-tauri/resources/.stem-models-staging/
+artifacts/crateforge/src-tauri/resources/stem-models.previous/
+artifacts/crateforge/release-installers/
+__pycache__/
+*.py[cod]
+.expo
+.expo-shared
+
+# dependencies
+node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+artifacts/basic-test-site/test-results/
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# System Files
+.DS_Store
+Thumbs.db
+
+.cursor/rules/nx-rules.mdc
+.github/instructions/nx.instructions.md
+
+# Replit
+.cache/
+.local/
