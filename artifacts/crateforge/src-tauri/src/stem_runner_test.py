@@ -7,6 +7,7 @@ create or download a real model.
 
 import importlib.util
 import json
+import os
 import sys
 import tempfile
 import types
@@ -62,7 +63,9 @@ class RuntimeDllDirectoryTests(unittest.TestCase):
             with patch.object(runner.os, "walk", side_effect=AssertionError("runtime scan repeated")):
                 directories = runner.runtime_dll_directories(str(site_packages))
 
-            self.assertEqual(directories, [str(numpy_dlls), str(onnx_dlls)])
+            self.assertEqual(len(directories), 2)
+            self.assertTrue(os.path.samefile(directories[0], numpy_dlls))
+            self.assertTrue(os.path.samefile(directories[1], onnx_dlls))
 
     def test_uses_known_pinned_dll_directories_for_older_installs(self):
         with tempfile.TemporaryDirectory() as temporary:
@@ -74,7 +77,8 @@ class RuntimeDllDirectoryTests(unittest.TestCase):
             with patch.object(runner.os, "walk", side_effect=AssertionError("runtime scan repeated")):
                 directories = runner.runtime_dll_directories(str(site_packages))
 
-            self.assertEqual(directories, [str(onnx_dlls)])
+            self.assertEqual(len(directories), 1)
+            self.assertTrue(os.path.samefile(directories[0], onnx_dlls))
 
 
 def fake_modules(behavior):
