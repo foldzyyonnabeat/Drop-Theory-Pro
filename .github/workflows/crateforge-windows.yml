@@ -5,12 +5,14 @@ on:
     paths:
       - "artifacts/crateforge/**"
       - "pnpm-lock.yaml"
+      - "pnpm-workspace.yaml"
       - ".github/workflows/crateforge-windows.yml"
   push:
     branches: [main]
     paths:
       - "artifacts/crateforge/**"
       - "pnpm-lock.yaml"
+      - "pnpm-workspace.yaml"
       - ".github/workflows/crateforge-windows.yml"
   workflow_dispatch:
 
@@ -45,13 +47,23 @@ jobs:
       - name: Install JavaScript dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Typecheck, tests, licensing guard, and web build
-        run: |
-          pnpm --filter @workspace/crateforge run typecheck
-          pnpm --filter @workspace/crateforge run test:audio
-          pnpm --filter @workspace/crateforge run test:stems
-          pnpm --filter @workspace/crateforge run licenses:check-release
-          pnpm --filter @workspace/crateforge run build:desktop
+      - name: Prepare the pinned stem runtime for bundled-runtime tests
+        run: pnpm --filter @workspace/crateforge exec node scripts/prepare-stem-runtime.mjs
+
+      - name: Typecheck
+        run: pnpm --filter @workspace/crateforge run typecheck
+
+      - name: Audio tests
+        run: pnpm --filter @workspace/crateforge run test:audio
+
+      - name: Stem tests
+        run: pnpm --filter @workspace/crateforge run test:stems
+
+      - name: Release licensing guard
+        run: pnpm --filter @workspace/crateforge run licenses:check-release
+
+      - name: Build desktop web app
+        run: pnpm --filter @workspace/crateforge run build:desktop
 
       - name: Rust tests
         run: cargo test --manifest-path artifacts/crateforge/src-tauri/Cargo.toml --locked

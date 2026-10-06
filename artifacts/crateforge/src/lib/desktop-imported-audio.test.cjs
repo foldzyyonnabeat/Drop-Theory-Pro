@@ -387,7 +387,7 @@ test('missing-audio restore writes to the selected track instead of importing a 
 });
 
 test('App removal and undo use the managed-audio delete and restore commands', () => {
-  const app = fs.readFileSync(path.join(libDirectory, '..', 'App.tsx'), 'utf8');
+  const app = fs.readFileSync(path.join(libDirectory, '..', 'App.tsx'), 'utf8').replace(/\r\n/g, '\n');
   const removeTrack = app.slice(
     app.indexOf('const removeTrack = async'),
     app.indexOf('const nav =', app.indexOf('const removeTrack = async')),
