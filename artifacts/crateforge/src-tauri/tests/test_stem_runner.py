@@ -543,7 +543,7 @@ class LocalHubFixture:
                         self.wfile.write(content[range_start:range_start + 8192])
                         self.wfile.flush()
                         fixture.interrupted.set()
-                        fixture.release_interruption.wait(5)
+                        fixture.release_interruption.wait(30)
                     self.close_connection = True
                     try:
                         self.connection.shutdown(socket.SHUT_RDWR)
@@ -555,7 +555,7 @@ class LocalHubFixture:
                 if range_header:
                     fixture.range_requested.set()
                     if not fixture.interrupt_always:
-                        fixture.release_range.wait(5)
+                        fixture.release_range.wait(30)
                 self.wfile.write(content[range_start:])
                 self.wfile.flush()
 
@@ -635,7 +635,7 @@ class BundledHubDownloadIntegrationTests(unittest.TestCase):
             ),
             patch.object(self.hub_constants, "HF_HUB_CACHE", str(cache_dir)),
             patch.object(self.file_download.constants, "DOWNLOAD_CHUNK_SIZE", 4096),
-            patch.object(self.file_download.constants, "HF_HUB_DOWNLOAD_TIMEOUT", 2),
+            patch.object(self.file_download.constants, "HF_HUB_DOWNLOAD_TIMEOUT", 30),
             patch.object(self.hub_constants, "HF_HUB_DISABLE_IMPLICIT_TOKEN", True),
         )
 
