@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/droptheoryapp/"
+title = "Drop Theory Pro Application"
+description = "Drop Theory Pro Application is a local-first DJ library and set-preparation workspace for organizing tracks, building crates, checking library health, and exporting standard playlists without cloud or streaming dependencies."
+version = "1.0.0"
+id = "artifacts/crateforge"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/droptheoryapp/" ]
+localPort = 26008
+
+[services.development]
+run = "pnpm --filter @workspace/crateforge run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/crateforge", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/crateforge/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "26008"
+BASE_PATH = "/droptheoryapp/"

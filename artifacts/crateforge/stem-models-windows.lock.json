@@ -1,0 +1,106 @@
+{
+  "format": "drop-theory-stem-models-lock",
+  "version": 1,
+  "license": "MIT",
+  "modelDocsUrl": "https://github.com/Anjok07/ultimatevocalremovergui",
+  "profiles": {
+    "htdemucs-ft": {
+      "model": "htdemucs_ft",
+      "precision": "fp32"
+    },
+    "htdemucs-ft-compact": {
+      "model": "htdemucs_ft",
+      "precision": "fp16weights"
+    },
+    "htdemucs-speed": {
+      "model": "htdemucs",
+      "precision": "fp32"
+    },
+    "uvr-mdx-inst-hq-5": {
+      "model": "UVR-MDX-NET-Inst_HQ_5.onnx",
+      "precision": "fp32"
+    }
+  },
+  "files": [
+    {
+      "profile": "htdemucs-ft",
+      "repo": "StemSplitio/htdemucs-ft-drums-onnx",
+      "revision": "55f929d333054c69ae0e829b15e8f8826a39d6eb",
+      "filename": "htdemucs_ft_drums.onnx",
+      "sizeBytes": 316446953,
+      "sha256": "f76b68af36066e38885b369299b5032a861038f9b49da5aa6cf1c31cfa69cf27"
+    },
+    {
+      "profile": "htdemucs-ft-compact",
+      "repo": "StemSplitio/htdemucs-ft-drums-onnx",
+      "revision": "55f929d333054c69ae0e829b15e8f8826a39d6eb",
+      "filename": "htdemucs_ft_drums_fp16weights.onnx",
+      "sizeBytes": 165612636,
+      "sha256": "047764dff888cfb87da917013377d4ec7a134f7419cbe486d9c339aa17975ddd"
+    },
+    {
+      "profile": "htdemucs-ft",
+      "repo": "StemSplitio/htdemucs-ft-bass-onnx",
+      "revision": "410457f134bf91cb3ecb74abf1a897882d26afa8",
+      "filename": "htdemucs_ft_bass.onnx",
+      "sizeBytes": 316446953,
+      "sha256": "2a74d9283fc2336fcc58d50f87a7080aff57aea372f65cfe3f0211ea1ff16182"
+    },
+    {
+      "profile": "htdemucs-ft-compact",
+      "repo": "StemSplitio/htdemucs-ft-bass-onnx",
+      "revision": "410457f134bf91cb3ecb74abf1a897882d26afa8",
+      "filename": "htdemucs_ft_bass_fp16weights.onnx",
+      "sizeBytes": 165612636,
+      "sha256": "b533037176b14b2df31c92a5d5b3d5660d0811b9b360d3db761964768b079961"
+    },
+    {
+      "profile": "htdemucs-ft",
+      "repo": "StemSplitio/htdemucs-ft-other-onnx",
+      "revision": "db6d606b4a6ee0b34f3fb09a6be4d23b07811318",
+      "filename": "htdemucs_ft_other.onnx",
+      "sizeBytes": 316446953,
+      "sha256": "90e11806c1bb558ca9d9c7e909d28a2854f7f217982e90482dbed6442513daad"
+    },
+    {
+      "profile": "htdemucs-ft-compact",
+      "repo": "StemSplitio/htdemucs-ft-other-onnx",
+      "revision": "db6d606b4a6ee0b34f3fb09a6be4d23b07811318",
+      "filename": "htdemucs_ft_other_fp16weights.onnx",
+      "sizeBytes": 165612636,
+      "sha256": "b739171a7057b3107bb0711c6222d4a619b41b13a8f04026431d30f32ad2bd71"
+    },
+    {
+      "profile": "htdemucs-ft",
+      "repo": "StemSplitio/htdemucs-ft-vocals-onnx",
+      "revision": "2ef0d757d3e226d0da85fb8c71514f464fcabdd0",
+      "filename": "htdemucs_ft_vocals.onnx",
+      "sizeBytes": 316446953,
+      "sha256": "8c5d5e2da1f27050240bb80236673307ee3b40d4b064066d9350f4d64bfd544d"
+    },
+    {
+      "profile": "htdemucs-ft-compact",
+      "repo": "StemSplitio/htdemucs-ft-vocals-onnx",
+      "revision": "2ef0d757d3e226d0da85fb8c71514f464fcabdd0",
+      "filename": "htdemucs_ft_vocals_fp16weights.onnx",
+      "sizeBytes": 165612636,
+      "sha256": "0cbe651f535415c9d26a7bb614f7d322dd5a080fa0298f2e50f478030a994dce"
+    },
+    {
+      "profile": "htdemucs-speed",
+      "repo": "StemSplitio/htdemucs-onnx",
+      "revision": "d54ed9eb60e258ea82131c6ee14578628816456a",
+      "filename": "htdemucs.onnx",
+      "sizeBytes": 316446953,
+      "sha256": "68d0bf16428ef66e692cdff8a9ccf28f1ef3f69440d57e58605a4cc55fcc5e74"
+    },
+    {
+      "profile": "uvr-mdx-inst-hq-5",
+      "path": "uvr/UVR-MDX-NET-Inst_HQ_5.onnx",
+      "url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/UVR-MDX-NET-Inst_HQ_5.onnx",
+      "filename": "UVR-MDX-NET-Inst_HQ_5.onnx",
+      "sizeBytes": 59074342,
+      "sha256": "811cb24095d865763752310848b7ec86aeede0626cb05749ab35350e46897000"
+    }
+  ]
+}

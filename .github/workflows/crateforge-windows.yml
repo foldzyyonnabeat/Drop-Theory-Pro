@@ -1,0 +1,169 @@
+name: Drop Theory Pro Windows build and checks
+
+on:
+  pull_request:
+    paths:
+      - "artifacts/crateforge/**"
+      - "pnpm-lock.yaml"
+      - ".github/workflows/crateforge-windows.yml"
+  push:
+    branches: [main]
+    paths:
+      - "artifacts/crateforge/**"
+      - "pnpm-lock.yaml"
+      - ".github/workflows/crateforge-windows.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  windows:
+    runs-on: windows-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10.26.1
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+          cache-dependency-path: pnpm-lock.yaml
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          toolchain: stable
+
+      - name: Install JavaScript dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Typecheck, tests, licensing guard, and web build
+        run: |
+          pnpm --filter @workspace/crateforge run typecheck
+          pnpm --filter @workspace/crateforge run test:audio
+          pnpm --filter @workspace/crateforge run test:stems
+          pnpm --filter @workspace/crateforge run licenses:check-release
+          pnpm --filter @workspace/crateforge run build:desktop
+
+      - name: Rust tests
+        run: cargo test --manifest-path artifacts/crateforge/src-tauri/Cargo.toml --locked
+
+      - name: Verify pinned Tauri CLI and NSIS toolchain
+        shell: pwsh
+        run: |
+          # Tauri CLI 2.12.0 provisions and checksum-verifies official NSIS 3.11 on Windows.
+          $tauriVersion = (pnpm --filter @workspace/crateforge exec tauri --version).Trim()
+          if ($tauriVersion -ne "tauri-cli 2.12.0") {
+            throw "Expected tauri-cli 2.12.0 (which provisions NSIS 3.11), got '$tauriVersion'."
+          }
+
+      - name: Build and validate the runtime-only x64 installer
+        shell: pwsh
+        run: |
+          $artifactRoot = "artifacts/crateforge"
+          $tauriRoot = Join-Path $artifactRoot "src-tauri"
+          $config = Get-Content (Join-Path $tauriRoot "tauri.conf.json") -Raw | ConvertFrom-Json
+
+          if ($config.productName -ne "Drop Theory Pro") {
+            throw "Unexpected product name in Tauri config: '$($config.productName)'."
+          }
+          $bundleTargets = @($config.bundle.targets)
+          if ($bundleTargets.Count -ne 1 -or $bundleTargets[0] -ne "nsis") {
+            throw "The compact build must create only the NSIS bundle; found: $($bundleTargets -join ', ')."
+          }
+          $resourceMappings = @($config.bundle.resources.PSObject.Properties.Name)
+          if ($resourceMappings.Count -ne 1 -or $resourceMappings[0] -ne "resources/stem-runtime/") {
+            throw "The compact installer must bundle only resources/stem-runtime/; found: $($resourceMappings -join ', ')."
+          }
+
+          $runtimeRoot = Join-Path $tauriRoot "resources/stem-runtime"
+          $runtimeManifest = Get-Content (Join-Path $runtimeRoot "runtime-manifest.json") -Raw | ConvertFrom-Json
+          if ($runtimeManifest.target -ne "windows-x86_64") {
+            throw "The staged stem runtime is not Windows x64."
+          }
+
+          pnpm --filter @workspace/crateforge exec tauri build --target x86_64-pc-windows-msvc --bundles nsis
+          if ($LASTEXITCODE -ne 0) {
+            throw "Tauri failed to build the Windows x64 NSIS installer."
+          }
+
+          $targetRoot = Join-Path $tauriRoot "target/x86_64-pc-windows-msvc/release"
+          $appExecutable = Join-Path $targetRoot "crateforge.exe"
+          $runtimePython = Join-Path $runtimeRoot "python.exe"
+          foreach ($path in @($appExecutable, $runtimePython)) {
+            if (-not (Test-Path -LiteralPath $path -PathType Leaf)) {
+              throw "Required x64 application/runtime executable was not found: $path"
+            }
+          }
+
+          function Get-PeMachine([string]$Path) {
+            $stream = [System.IO.File]::OpenRead($Path)
+            $reader = [System.IO.BinaryReader]::new($stream)
+            try {
+              if ($reader.ReadUInt16() -ne 0x5A4D) {
+                throw "Not a Windows PE executable: $Path"
+              }
+              $stream.Position = 0x3c
+              $peOffset = $reader.ReadInt32()
+              if ($peOffset -lt 0x40 -or $peOffset + 6 -gt $stream.Length) {
+                throw "Invalid PE header in: $Path"
+              }
+              $stream.Position = $peOffset
+              if ($reader.ReadUInt32() -ne 0x00004550) {
+                throw "Invalid PE signature in: $Path"
+              }
+              return [uint16]$reader.ReadUInt16()
+            } finally {
+              $reader.Dispose()
+            }
+          }
+
+          foreach ($path in @($appExecutable, $runtimePython)) {
+            $machine = Get-PeMachine $path
+            if ($machine -ne 0x8664) {
+              throw "Expected x64 PE architecture (0x8664), found 0x$('{0:X4}' -f $machine) in $path."
+            }
+          }
+
+          $bundleRoot = Join-Path $targetRoot "bundle/nsis"
+          $installerName = "$($config.productName)_$($config.version)_x64-setup.exe"
+          $installerPath = Join-Path $bundleRoot $installerName
+          if (-not (Test-Path -LiteralPath $installerPath -PathType Leaf)) {
+            throw "The Windows x64 Drop Theory Pro NSIS installer was not produced: $installerPath"
+          }
+          $installerSize = (Get-Item -LiteralPath $installerPath).Length
+          if ($installerSize -ge 1GB) {
+            throw "The installer is unexpectedly large ($installerSize bytes); refusing to publish a possible model bundle."
+          }
+
+          $artifactDir = Join-Path $env:RUNNER_TEMP "drop-theory-pro-windows-x64-runtime-only"
+          New-Item -ItemType Directory -Path $artifactDir -Force | Out-Null
+          $artifactInstaller = Join-Path $artifactDir $installerName
+          Copy-Item -LiteralPath $installerPath -Destination $artifactInstaller
+
+          $digest = (Get-FileHash -LiteralPath $artifactInstaller -Algorithm SHA256).Hash.ToLowerInvariant()
+          $checksumPath = "$artifactInstaller.sha256"
+          Set-Content -LiteralPath $checksumPath -Value "$digest  $installerName" -Encoding ascii -NoNewline
+          $recordedDigest = ((Get-Content -LiteralPath $checksumPath -Raw) -split '\s+')[0].ToLowerInvariant()
+          $copiedDigest = (Get-FileHash -LiteralPath $artifactInstaller -Algorithm SHA256).Hash.ToLowerInvariant()
+          if ($recordedDigest -ne $copiedDigest) {
+            throw "The installer did not pass its final SHA-256 checksum verification."
+          }
+
+          Write-Host "Verified x64 app and Python runtime. Runtime-only installer SHA-256: $copiedDigest"
+
+      - name: Upload validated runtime-only installer
+        uses: actions/upload-artifact@v4
+        with:
+          name: drop-theory-pro-windows-x64-runtime-only-installer
+          path: ${{ runner.temp }}/drop-theory-pro-windows-x64-runtime-only/*
+          if-no-files-found: error
+          retention-days: 30

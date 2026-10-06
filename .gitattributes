@@ -1,0 +1,4 @@
+artifacts/crateforge/src-tauri/target/debug/deps/crateforge_lib-fa8adef62af8c43a filter=lfs diff=lfs merge=lfs -text
+artifacts/crateforge/src-tauri/target/debug/deps/libcrateforge_lib.a filter=lfs diff=lfs merge=lfs -text
+artifacts/crateforge/src-tauri/target/debug/deps/libcrateforge_lib.rlib filter=lfs diff=lfs merge=lfs -text
+artifacts/crateforge/src-tauri/target/debug/deps/libcrateforge_lib.so filter=lfs diff=lfs merge=lfs -text

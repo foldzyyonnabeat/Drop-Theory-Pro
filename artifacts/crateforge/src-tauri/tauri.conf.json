@@ -1,0 +1,41 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "Drop Theory Pro",
+  "version": "0.1.0",
+  "identifier": "app.crateforge.desktop",
+  "build": {
+    "beforeDevCommand": "pnpm --filter @workspace/crateforge run dev:desktop",
+    "devUrl": "http://127.0.0.1:1420",
+    "beforeBuildCommand": "pnpm --filter @workspace/crateforge run build:desktop",
+    "frontendDist": "../dist/public"
+  },
+  "app": {
+    "windows": [
+      {
+        "label": "main",
+        "title": "Drop Theory Pro",
+        "width": 1440,
+        "height": 920,
+        "minWidth": 1040,
+        "minHeight": 700,
+        "decorations": false,
+        "shadow": true
+      }
+    ],
+    "security": {
+      "csp": null,
+      "assetProtocol": {
+        "enable": true,
+        "scope": []
+      }
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": ["nsis"],
+    "icon": ["icons/icon.ico"],
+    "resources": {
+      "resources/stem-runtime/": "stem-runtime/"
+    }
+  }
+}

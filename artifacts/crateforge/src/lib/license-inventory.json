@@ -1,0 +1,2930 @@
+[
+  {
+    "name": "@babel/code-frame",
+    "version": "7.29.7",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/babel/babel",
+    "author": "The Babel Team (https://babel.dev/team)",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@babel/compat-data",
+    "version": "7.29.7",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/babel/babel",
+    "author": "The Babel Team (https://babel.dev/team)",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@babel/core",
+    "version": "7.29.7",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/babel/babel",
+    "author": "The Babel Team (https://babel.dev/team)",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@babel/generator",
+    "version": "7.29.8",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/babel/babel",
+    "author": "The Babel Team (https://babel.dev/team)",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@babel/helper-compilation-targets",
+    "version": "7.29.7",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/babel/babel",
+    "author": "The Babel Team (https://babel.dev/team)",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@babel/helper-globals",
+    "version": "7.29.7",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/babel/babel",
+    "author": "The Babel Team (https://babel.dev/team)",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@babel/helper-module-imports",
+    "version": "7.29.7",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/babel/babel",
+    "author": "The Babel Team (https://babel.dev/team)",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@babel/helper-module-transforms",
+    "version": "7.29.7",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/babel/babel",
+    "author": "The Babel Team (https://babel.dev/team)",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@babel/helper-plugin-utils",
+    "version": "7.29.7",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/babel/babel",
+    "author": "The Babel Team (https://babel.dev/team)",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@babel/helper-string-parser",
+    "version": "7.29.7",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/babel/babel",
+    "author": "The Babel Team (https://babel.dev/team)",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@babel/helper-validator-identifier",
+    "version": "7.29.7",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/babel/babel",
+    "author": "The Babel Team (https://babel.dev/team)",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@babel/helper-validator-option",
+    "version": "7.29.7",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/babel/babel",
+    "author": "The Babel Team (https://babel.dev/team)",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@babel/helpers",
+    "version": "7.29.7",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/babel/babel",
+    "author": "The Babel Team (https://babel.dev/team)",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@babel/parser",
+    "version": "7.29.8",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/babel/babel",
+    "author": "The Babel Team (https://babel.dev/team)",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@babel/plugin-transform-react-jsx-self",
+    "version": "7.29.7",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/babel/babel",
+    "author": "The Babel Team (https://babel.dev/team)",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@babel/plugin-transform-react-jsx-source",
+    "version": "7.29.7",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/babel/babel",
+    "author": "The Babel Team (https://babel.dev/team)",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@babel/runtime",
+    "version": "7.29.7",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/babel/babel",
+    "author": "The Babel Team (https://babel.dev/team)",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@babel/template",
+    "version": "7.29.7",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/babel/babel",
+    "author": "The Babel Team (https://babel.dev/team)",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@babel/traverse",
+    "version": "7.29.8",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/babel/babel",
+    "author": "The Babel Team (https://babel.dev/team)",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@babel/types",
+    "version": "7.29.8",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/babel/babel",
+    "author": "The Babel Team (https://babel.dev/team)",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@date-fns/tz",
+    "version": "1.5.0",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/date-fns/date-fns",
+    "author": "Sasha Koss <koss@nocorp.me>",
+    "noticeFiles": [
+      "LICENSE.md"
+    ]
+  },
+  {
+    "name": "@esbuild/linux-x64",
+    "version": "0.28.2",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/evanw/esbuild",
+    "author": "",
+    "noticeFiles": []
+  },
+  {
+    "name": "@floating-ui/core",
+    "version": "1.8.0",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/floating-ui/floating-ui",
+    "author": "atomiks",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@floating-ui/dom",
+    "version": "1.8.0",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/floating-ui/floating-ui",
+    "author": "atomiks",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@floating-ui/react-dom",
+    "version": "2.1.9",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/floating-ui/floating-ui",
+    "author": "atomiks",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@floating-ui/utils",
+    "version": "0.2.12",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/floating-ui/floating-ui",
+    "author": "atomiks",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@hookform/resolvers",
+    "version": "3.10.0",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/react-hook-form/resolvers",
+    "author": "bluebill1049 <bluebill1049@hotmail.com>",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@jridgewell/gen-mapping",
+    "version": "0.3.13",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/jridgewell/sourcemaps",
+    "author": "Justin Ridgewell <justin@ridgewell.name>",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@jridgewell/remapping",
+    "version": "2.3.5",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/jridgewell/sourcemaps",
+    "author": "Justin Ridgewell <justin@ridgewell.name>",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@jridgewell/resolve-uri",
+    "version": "3.1.2",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/jridgewell/resolve-uri",
+    "author": "Justin Ridgewell <justin@ridgewell.name>",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@jridgewell/sourcemap-codec",
+    "version": "1.6.0",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/jridgewell/sourcemaps",
+    "author": "Justin Ridgewell <justin@ridgewell.name>",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@jridgewell/trace-mapping",
+    "version": "0.3.31",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/jridgewell/sourcemaps",
+    "author": "Justin Ridgewell <justin@ridgewell.name>",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@napi-rs/lzma-linux-x64-gnu",
+    "version": "1.5.1",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/Brooooooklyn/lzma",
+    "author": "",
+    "noticeFiles": []
+  },
+  {
+    "name": "@radix-ui/number",
+    "version": "1.1.3",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/radix-ui/primitives",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@radix-ui/primitive",
+    "version": "1.1.7",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/radix-ui/primitives",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@radix-ui/react-accordion",
+    "version": "1.2.20",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/radix-ui/primitives",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@radix-ui/react-alert-dialog",
+    "version": "1.1.23",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/radix-ui/primitives",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@radix-ui/react-arrow",
+    "version": "1.1.15",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/radix-ui/primitives",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@radix-ui/react-aspect-ratio",
+    "version": "1.1.15",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/radix-ui/primitives",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@radix-ui/react-avatar",
+    "version": "1.2.6",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/radix-ui/primitives",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@radix-ui/react-checkbox",
+    "version": "1.3.11",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/radix-ui/primitives",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@radix-ui/react-collapsible",
+    "version": "1.1.20",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/radix-ui/primitives",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@radix-ui/react-collection",
+    "version": "1.1.15",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/radix-ui/primitives",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@radix-ui/react-compose-refs",
+    "version": "1.1.5",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/radix-ui/primitives",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@radix-ui/react-context",
+    "version": "1.2.2",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/radix-ui/primitives",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@radix-ui/react-context-menu",
+    "version": "2.3.7",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/radix-ui/primitives",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@radix-ui/react-dialog",
+    "version": "1.1.23",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/radix-ui/primitives",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@radix-ui/react-direction",
+    "version": "1.1.4",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/radix-ui/primitives",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@radix-ui/react-dismissable-layer",
+    "version": "1.1.19",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/radix-ui/primitives",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@radix-ui/react-dropdown-menu",
+    "version": "2.1.24",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/radix-ui/primitives",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@radix-ui/react-focus-guards",
+    "version": "1.1.6",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/radix-ui/primitives",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@radix-ui/react-focus-scope",
+    "version": "1.1.16",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/radix-ui/primitives",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@radix-ui/react-hover-card",
+    "version": "1.1.23",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/radix-ui/primitives",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@radix-ui/react-id",
+    "version": "1.1.4",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/radix-ui/primitives",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@radix-ui/react-label",
+    "version": "2.1.15",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/radix-ui/primitives",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@radix-ui/react-menu",
+    "version": "2.1.24",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/radix-ui/primitives",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@radix-ui/react-menubar",
+    "version": "1.1.24",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/radix-ui/primitives",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@radix-ui/react-navigation-menu",
+    "version": "1.2.22",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/radix-ui/primitives",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@radix-ui/react-popover",
+    "version": "1.1.23",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/radix-ui/primitives",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@radix-ui/react-popper",
+    "version": "1.3.7",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/radix-ui/primitives",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@radix-ui/react-portal",
+    "version": "1.1.17",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/radix-ui/primitives",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@radix-ui/react-presence",
+    "version": "1.1.10",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/radix-ui/primitives",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@radix-ui/react-primitive",
+    "version": "2.1.10",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/radix-ui/primitives",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@radix-ui/react-progress",
+    "version": "1.1.16",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/radix-ui/primitives",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@radix-ui/react-radio-group",
+    "version": "1.4.7",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/radix-ui/primitives",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@radix-ui/react-roving-focus",
+    "version": "1.1.19",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/radix-ui/primitives",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@radix-ui/react-scroll-area",
+    "version": "1.2.18",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/radix-ui/primitives",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@radix-ui/react-select",
+    "version": "2.3.7",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/radix-ui/primitives",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@radix-ui/react-separator",
+    "version": "1.1.15",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/radix-ui/primitives",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@radix-ui/react-slider",
+    "version": "1.4.7",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/radix-ui/primitives",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@radix-ui/react-slot",
+    "version": "1.3.3",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/radix-ui/primitives",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@radix-ui/react-switch",
+    "version": "1.3.7",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/radix-ui/primitives",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@radix-ui/react-tabs",
+    "version": "1.1.21",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/radix-ui/primitives",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@radix-ui/react-toast",
+    "version": "1.2.23",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/radix-ui/primitives",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@radix-ui/react-toggle",
+    "version": "1.1.18",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/radix-ui/primitives",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@radix-ui/react-toggle-group",
+    "version": "1.1.19",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/radix-ui/primitives",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@radix-ui/react-tooltip",
+    "version": "1.2.16",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/radix-ui/primitives",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@radix-ui/react-use-callback-ref",
+    "version": "1.1.4",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/radix-ui/primitives",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@radix-ui/react-use-controllable-state",
+    "version": "1.2.6",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/radix-ui/primitives",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@radix-ui/react-use-effect-event",
+    "version": "0.0.5",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/radix-ui/primitives",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@radix-ui/react-use-is-hydrated",
+    "version": "0.1.3",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/radix-ui/primitives",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@radix-ui/react-use-layout-effect",
+    "version": "1.1.4",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/radix-ui/primitives",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@radix-ui/react-use-previous",
+    "version": "1.1.4",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/radix-ui/primitives",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@radix-ui/react-use-rect",
+    "version": "1.1.4",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/radix-ui/primitives",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@radix-ui/react-use-size",
+    "version": "1.1.4",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/radix-ui/primitives",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@radix-ui/react-visually-hidden",
+    "version": "1.2.11",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/radix-ui/primitives",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@radix-ui/rect",
+    "version": "1.1.3",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/radix-ui/primitives",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@replit/vite-plugin-cartographer",
+    "version": "0.5.21",
+    "license": "UNKNOWN",
+    "verdict": "⚠️ conditions",
+    "note": "License metadata is missing or not in the simple permissive allow-list; verify with the package owner.",
+    "source": "",
+    "author": "",
+    "noticeFiles": []
+  },
+  {
+    "name": "@replit/vite-plugin-dev-banner",
+    "version": "0.1.2",
+    "license": "UNKNOWN",
+    "verdict": "⚠️ conditions",
+    "note": "License metadata is missing or not in the simple permissive allow-list; verify with the package owner.",
+    "source": "",
+    "author": "",
+    "noticeFiles": []
+  },
+  {
+    "name": "@replit/vite-plugin-runtime-error-modal",
+    "version": "0.0.6",
+    "license": "UNKNOWN",
+    "verdict": "⚠️ conditions",
+    "note": "License metadata is missing or not in the simple permissive allow-list; verify with the package owner.",
+    "source": "",
+    "author": "",
+    "noticeFiles": []
+  },
+  {
+    "name": "@rolldown/pluginutils",
+    "version": "1.0.0-rc.3",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/rolldown/rolldown",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@rollup/rollup-linux-x64-gnu",
+    "version": "4.63.1",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/rollup/rollup",
+    "author": "Lukas Taegert-Atkinson",
+    "noticeFiles": []
+  },
+  {
+    "name": "@tabby_ai/hijri-converter",
+    "version": "1.0.5",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@tailwindcss/node",
+    "version": "4.3.3",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/tailwindlabs/tailwindcss",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@tailwindcss/oxide",
+    "version": "4.3.3",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/tailwindlabs/tailwindcss",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@tailwindcss/oxide-linux-x64-gnu",
+    "version": "4.3.3",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/tailwindlabs/tailwindcss",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@tailwindcss/oxide-wasm32-wasi",
+    "version": "4.3.3",
+    "license": "UNKNOWN",
+    "verdict": "⚠️ conditions",
+    "note": "License metadata is missing or not in the simple permissive allow-list; verify with the package owner.",
+    "source": "",
+    "author": "",
+    "noticeFiles": []
+  },
+  {
+    "name": "@tailwindcss/typography",
+    "version": "0.5.20",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/tailwindlabs/tailwindcss-typography",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@tailwindcss/vite",
+    "version": "4.3.3",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/tailwindlabs/tailwindcss",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@tanstack/query-core",
+    "version": "5.102.8",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/TanStack/query",
+    "author": "tannerlinsley",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@tanstack/react-query",
+    "version": "5.102.8",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/TanStack/query",
+    "author": "tannerlinsley",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@tauri-apps/api",
+    "version": "2.11.1",
+    "license": "Apache-2.0 OR MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/tauri-apps/tauri",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE_APACHE-2.0",
+      "LICENSE_MIT"
+    ]
+  },
+  {
+    "name": "@tauri-apps/api",
+    "version": "2.12.0",
+    "license": "Apache-2.0 OR MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/tauri-apps/tauri",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE-APACHE-2.0",
+      "LICENSE-MIT",
+      "LICENSE.spdx"
+    ]
+  },
+  {
+    "name": "@tauri-apps/cli",
+    "version": "2.12.0",
+    "license": "Apache-2.0 OR MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/tauri-apps/tauri",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE-APACHE-2.0",
+      "LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "@tauri-apps/cli-darwin-arm64",
+    "version": "2.12.0",
+    "license": "UNKNOWN",
+    "verdict": "⚠️ conditions",
+    "note": "License metadata is missing or not in the simple permissive allow-list; verify with the package owner.",
+    "source": "",
+    "author": "",
+    "noticeFiles": []
+  },
+  {
+    "name": "@tauri-apps/cli-darwin-x64",
+    "version": "2.12.0",
+    "license": "UNKNOWN",
+    "verdict": "⚠️ conditions",
+    "note": "License metadata is missing or not in the simple permissive allow-list; verify with the package owner.",
+    "source": "",
+    "author": "",
+    "noticeFiles": []
+  },
+  {
+    "name": "@tauri-apps/cli-linux-arm-gnueabihf",
+    "version": "2.12.0",
+    "license": "UNKNOWN",
+    "verdict": "⚠️ conditions",
+    "note": "License metadata is missing or not in the simple permissive allow-list; verify with the package owner.",
+    "source": "",
+    "author": "",
+    "noticeFiles": []
+  },
+  {
+    "name": "@tauri-apps/cli-linux-arm64-gnu",
+    "version": "2.12.0",
+    "license": "UNKNOWN",
+    "verdict": "⚠️ conditions",
+    "note": "License metadata is missing or not in the simple permissive allow-list; verify with the package owner.",
+    "source": "",
+    "author": "",
+    "noticeFiles": []
+  },
+  {
+    "name": "@tauri-apps/cli-linux-arm64-musl",
+    "version": "2.12.0",
+    "license": "UNKNOWN",
+    "verdict": "⚠️ conditions",
+    "note": "License metadata is missing or not in the simple permissive allow-list; verify with the package owner.",
+    "source": "",
+    "author": "",
+    "noticeFiles": []
+  },
+  {
+    "name": "@tauri-apps/cli-linux-riscv64-gnu",
+    "version": "2.12.0",
+    "license": "UNKNOWN",
+    "verdict": "⚠️ conditions",
+    "note": "License metadata is missing or not in the simple permissive allow-list; verify with the package owner.",
+    "source": "",
+    "author": "",
+    "noticeFiles": []
+  },
+  {
+    "name": "@tauri-apps/cli-linux-x64-gnu",
+    "version": "2.12.0",
+    "license": "Apache-2.0 OR MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/tauri-apps/tauri",
+    "author": "",
+    "noticeFiles": []
+  },
+  {
+    "name": "@tauri-apps/cli-linux-x64-musl",
+    "version": "2.12.0",
+    "license": "UNKNOWN",
+    "verdict": "⚠️ conditions",
+    "note": "License metadata is missing or not in the simple permissive allow-list; verify with the package owner.",
+    "source": "",
+    "author": "",
+    "noticeFiles": []
+  },
+  {
+    "name": "@tauri-apps/cli-win32-arm64-msvc",
+    "version": "2.12.0",
+    "license": "UNKNOWN",
+    "verdict": "⚠️ conditions",
+    "note": "License metadata is missing or not in the simple permissive allow-list; verify with the package owner.",
+    "source": "",
+    "author": "",
+    "noticeFiles": []
+  },
+  {
+    "name": "@tauri-apps/cli-win32-ia32-msvc",
+    "version": "2.12.0",
+    "license": "UNKNOWN",
+    "verdict": "⚠️ conditions",
+    "note": "License metadata is missing or not in the simple permissive allow-list; verify with the package owner.",
+    "source": "",
+    "author": "",
+    "noticeFiles": []
+  },
+  {
+    "name": "@tauri-apps/cli-win32-x64-msvc",
+    "version": "2.12.0",
+    "license": "UNKNOWN",
+    "verdict": "⚠️ conditions",
+    "note": "License metadata is missing or not in the simple permissive allow-list; verify with the package owner.",
+    "source": "",
+    "author": "",
+    "noticeFiles": []
+  },
+  {
+    "name": "@tauri-apps/plugin-dialog",
+    "version": "2.7.3",
+    "license": "MIT OR Apache-2.0",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/tauri-apps/plugins-workspace",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE.spdx"
+    ]
+  },
+  {
+    "name": "@types/babel__core",
+    "version": "7.20.5",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@types/babel__generator",
+    "version": "7.27.0",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@types/babel__template",
+    "version": "7.4.4",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@types/babel__traverse",
+    "version": "7.28.0",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@types/d3-array",
+    "version": "3.2.2",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@types/d3-color",
+    "version": "3.1.3",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@types/d3-ease",
+    "version": "3.0.2",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@types/d3-interpolate",
+    "version": "3.0.4",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@types/d3-path",
+    "version": "3.1.1",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@types/d3-scale",
+    "version": "4.0.9",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@types/d3-shape",
+    "version": "3.2.0",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@types/d3-time",
+    "version": "3.0.4",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@types/d3-timer",
+    "version": "3.0.2",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@types/estree",
+    "version": "1.0.9",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@types/node",
+    "version": "25.9.6",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@types/react",
+    "version": "19.3.0",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@types/react-dom",
+    "version": "19.3.0",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@vitejs/plugin-react",
+    "version": "5.2.0",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/vitejs/vite-plugin-react",
+    "author": "Evan You",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "@workspace/api-client-react",
+    "version": "link:../../lib/api-client-react",
+    "license": "UNKNOWN",
+    "verdict": "⚠️ conditions",
+    "note": "License metadata is missing or not in the simple permissive allow-list; verify with the package owner.",
+    "source": "",
+    "author": "",
+    "noticeFiles": []
+  },
+  {
+    "name": "aria-hidden",
+    "version": "1.2.6",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/theKashey/aria-hidden",
+    "author": "Anton Korzunov <thekashey@gmail.com>",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "baseline-browser-mapping",
+    "version": "2.11.21",
+    "license": "Apache-2.0",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/web-platform-dx/baseline-browser-mapping",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE.txt"
+    ]
+  },
+  {
+    "name": "browserslist",
+    "version": "4.28.9",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "browserslist/browserslist",
+    "author": "Andrey Sitnik <andrey@sitnik.es>",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "caniuse-lite",
+    "version": "1.0.30001810",
+    "license": "CC-BY-4.0",
+    "verdict": "⚠️ conditions",
+    "note": "Review the specific license, linking, attribution, and redistribution obligations.",
+    "source": "browserslist/caniuse-lite",
+    "author": "Ben Briggs",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "class-variance-authority",
+    "version": "0.7.1",
+    "license": "Apache-2.0",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/joe-bell/cva",
+    "author": "Joe Bell (https://joebell.co.uk)",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "clsx",
+    "version": "2.1.1",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "lukeed/clsx",
+    "author": "Luke Edwards",
+    "noticeFiles": [
+      "license"
+    ]
+  },
+  {
+    "name": "cmdk",
+    "version": "1.1.1",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/pacocoursey/cmdk",
+    "author": "Paco",
+    "noticeFiles": [
+      "LICENSE.md"
+    ]
+  },
+  {
+    "name": "convert-source-map",
+    "version": "2.0.0",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "git://github.com/thlorenz/convert-source-map",
+    "author": "Thorsten Lorenz",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "cssesc",
+    "version": "3.0.0",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/mathiasbynens/cssesc",
+    "author": "Mathias Bynens",
+    "noticeFiles": [
+      "LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "name": "csstype",
+    "version": "3.2.3",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/frenic/csstype",
+    "author": "Fredrik Nicol <fredrik.nicol@gmail.com>",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "d3-array",
+    "version": "3.2.4",
+    "license": "ISC",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/d3/d3-array",
+    "author": "Mike Bostock",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "d3-color",
+    "version": "3.1.0",
+    "license": "ISC",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/d3/d3-color",
+    "author": "Mike Bostock",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "d3-ease",
+    "version": "3.0.1",
+    "license": "BSD-3-Clause",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/d3/d3-ease",
+    "author": "Mike Bostock",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "d3-format",
+    "version": "3.1.2",
+    "license": "ISC",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/d3/d3-format",
+    "author": "Mike Bostock",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "d3-interpolate",
+    "version": "3.0.1",
+    "license": "ISC",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/d3/d3-interpolate",
+    "author": "Mike Bostock",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "d3-path",
+    "version": "3.1.0",
+    "license": "ISC",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/d3/d3-path",
+    "author": "Mike Bostock",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "d3-scale",
+    "version": "4.0.2",
+    "license": "ISC",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/d3/d3-scale",
+    "author": "Mike Bostock",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "d3-shape",
+    "version": "3.2.0",
+    "license": "ISC",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/d3/d3-shape",
+    "author": "Mike Bostock",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "d3-time",
+    "version": "3.1.0",
+    "license": "ISC",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/d3/d3-time",
+    "author": "Mike Bostock",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "d3-time-format",
+    "version": "4.1.0",
+    "license": "ISC",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/d3/d3-time-format",
+    "author": "Mike Bostock",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "d3-timer",
+    "version": "3.0.1",
+    "license": "ISC",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/d3/d3-timer",
+    "author": "Mike Bostock",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "date-fns",
+    "version": "3.6.0",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/date-fns/date-fns",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE.md"
+    ]
+  },
+  {
+    "name": "date-fns",
+    "version": "4.4.0",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/date-fns/date-fns",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE.md"
+    ]
+  },
+  {
+    "name": "date-fns-jalali",
+    "version": "4.1.0-0",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/date-fns-jalali/date-fns-jalali",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE.md"
+    ]
+  },
+  {
+    "name": "debug",
+    "version": "4.4.3",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "git://github.com/debug-js/debug",
+    "author": "Josh Junon (https://github.com/qix-)",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "decimal.js-light",
+    "version": "2.5.1",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/MikeMcl/decimal.js-light",
+    "author": "Michael Mclaughlin",
+    "noticeFiles": [
+      "LICENCE.md"
+    ]
+  },
+  {
+    "name": "detect-libc",
+    "version": "2.1.2",
+    "license": "Apache-2.0",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "git://github.com/lovell/detect-libc",
+    "author": "Lovell Fuller <npm@lovell.info>",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "detect-node-es",
+    "version": "1.1.0",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/thekashey/detect-node",
+    "author": "Ilya Kantor",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "dom-helpers",
+    "version": "5.2.1",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/react-bootstrap/dom-helpers",
+    "author": "Jason Quense",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "electron-to-chromium",
+    "version": "1.5.425",
+    "license": "ISC",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/Kilian/electron-to-chromium",
+    "author": "Kilian Valkhof",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "embla-carousel",
+    "version": "8.6.0",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/davidjerleke/embla-carousel",
+    "author": "David Jerleke",
+    "noticeFiles": []
+  },
+  {
+    "name": "embla-carousel-react",
+    "version": "8.6.0",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/davidjerleke/embla-carousel",
+    "author": "David Jerleke",
+    "noticeFiles": []
+  },
+  {
+    "name": "embla-carousel-reactive-utils",
+    "version": "8.6.0",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/davidjerleke/embla-carousel",
+    "author": "David Jerleke",
+    "noticeFiles": []
+  },
+  {
+    "name": "enhanced-resolve",
+    "version": "5.24.5",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/webpack/enhanced-resolve",
+    "author": "Tobias Koppers @sokra",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "esbuild",
+    "version": "0.28.2",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/evanw/esbuild",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE.md"
+    ]
+  },
+  {
+    "name": "escalade",
+    "version": "3.2.0",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "lukeed/escalade",
+    "author": "Luke Edwards",
+    "noticeFiles": [
+      "license"
+    ]
+  },
+  {
+    "name": "eventemitter3",
+    "version": "4.0.7",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "git://github.com/primus/eventemitter3",
+    "author": "Arnout Kazemier",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "fast-equals",
+    "version": "5.4.2",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/planttheidea/fast-equals",
+    "author": "Tony Quetano",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "fdir",
+    "version": "6.5.0",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/thecodrr/fdir",
+    "author": "thecodrr <thecodrr@protonmail.com>",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "framer-motion",
+    "version": "12.43.0",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/motiondivision/motion/",
+    "author": "Matt Perry",
+    "noticeFiles": [
+      "LICENSE.md"
+    ]
+  },
+  {
+    "name": "fsevents",
+    "version": "2.3.3",
+    "license": "UNKNOWN",
+    "verdict": "⚠️ conditions",
+    "note": "License metadata is missing or not in the simple permissive allow-list; verify with the package owner.",
+    "source": "",
+    "author": "",
+    "noticeFiles": []
+  },
+  {
+    "name": "gensync",
+    "version": "1.0.0-beta.2",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/loganfsmyth/gensync",
+    "author": "Logan Smyth <loganfsmyth@gmail.com>",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "get-nonce",
+    "version": "1.0.1",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "git@github.com:theKashey/get-nonce",
+    "author": "Anton Korzunov <thekashey@gmail.com>",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "graceful-fs",
+    "version": "4.2.11",
+    "license": "ISC",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/isaacs/node-graceful-fs",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "input-otp",
+    "version": "1.5.0",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/guilhermerodz/input-otp",
+    "author": "Guilherme Rodz <g@rodz.dev>",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "internmap",
+    "version": "2.0.3",
+    "license": "ISC",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/mbostock/internmap",
+    "author": "Mike Bostock",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "jiti",
+    "version": "2.7.0",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "unjs/jiti",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "js-tokens",
+    "version": "4.0.0",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "lydell/js-tokens",
+    "author": "Simon Lydell",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "jsesc",
+    "version": "3.1.0",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/mathiasbynens/jsesc",
+    "author": "Mathias Bynens",
+    "noticeFiles": [
+      "LICENSE-MIT.txt"
+    ]
+  },
+  {
+    "name": "json5",
+    "version": "2.2.3",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/json5/json5",
+    "author": "Aseem Kishore <aseem.kishore@gmail.com>",
+    "noticeFiles": [
+      "LICENSE.md"
+    ]
+  },
+  {
+    "name": "lightningcss",
+    "version": "1.32.0",
+    "license": "MPL-2.0",
+    "verdict": "⚠️ conditions",
+    "note": "Review the specific license, linking, attribution, and redistribution obligations.",
+    "source": "https://github.com/parcel-bundler/lightningcss",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "lightningcss-linux-x64-gnu",
+    "version": "1.32.0",
+    "license": "MPL-2.0",
+    "verdict": "⚠️ conditions",
+    "note": "Review the specific license, linking, attribution, and redistribution obligations.",
+    "source": "https://github.com/parcel-bundler/lightningcss",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "lodash",
+    "version": "4.18.1",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "lodash/lodash",
+    "author": "John-David Dalton <john.david.dalton@gmail.com>",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "loose-envify",
+    "version": "1.4.0",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "git://github.com/zertosh/loose-envify",
+    "author": "Andres Suarez <zertosh@gmail.com>",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "lru-cache",
+    "version": "5.1.1",
+    "license": "ISC",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "git://github.com/isaacs/node-lru-cache",
+    "author": "Isaac Z. Schlueter <i@izs.me>",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "lucide-react",
+    "version": "0.545.0",
+    "license": "ISC",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/lucide-icons/lucide",
+    "author": "Eric Fennis",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "magic-string",
+    "version": "0.30.21",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/Rich-Harris/magic-string",
+    "author": "Rich Harris",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "modern-screenshot",
+    "version": "4.7.0",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/qq15725/modern-screenshot",
+    "author": "wxm",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "motion-dom",
+    "version": "12.43.0",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/motiondivision/motion",
+    "author": "Matt Perry",
+    "noticeFiles": [
+      "LICENSE.md"
+    ]
+  },
+  {
+    "name": "motion-utils",
+    "version": "12.39.0",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/motiondivision/motion",
+    "author": "Matt Perry",
+    "noticeFiles": [
+      "LICENSE.md"
+    ]
+  },
+  {
+    "name": "ms",
+    "version": "2.1.3",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "vercel/ms",
+    "author": "",
+    "noticeFiles": [
+      "license.md"
+    ]
+  },
+  {
+    "name": "nanoid",
+    "version": "3.3.18",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "ai/nanoid",
+    "author": "Andrey Sitnik <andrey@sitnik.ru>",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "next-themes",
+    "version": "0.4.6",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/pacocoursey/next-themes",
+    "author": "",
+    "noticeFiles": [
+      "license.md"
+    ]
+  },
+  {
+    "name": "node-releases",
+    "version": "2.0.55",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/chicoxyzzy/node-releases",
+    "author": "Sergey Rubanov <chi187@gmail.com>",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "object-assign",
+    "version": "4.1.1",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "sindresorhus/object-assign",
+    "author": "Sindre Sorhus",
+    "noticeFiles": [
+      "license"
+    ]
+  },
+  {
+    "name": "picocolors",
+    "version": "1.1.1",
+    "license": "ISC",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "alexeyraspopov/picocolors",
+    "author": "Alexey Raspopov",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "picomatch",
+    "version": "4.0.7",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "micromatch/picomatch",
+    "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "postcss",
+    "version": "8.5.28",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "postcss/postcss",
+    "author": "Andrey Sitnik <andrey@sitnik.es>",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "postcss-selector-parser",
+    "version": "6.0.10",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "postcss/postcss-selector-parser",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "prop-types",
+    "version": "15.8.1",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "facebook/prop-types",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "react",
+    "version": "19.1.4",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/facebook/react",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "react-day-picker",
+    "version": "9.14.0",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/gpbl/react-day-picker",
+    "author": "Giampaolo Bellavite <io@gpbl.dev>",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "react-dom",
+    "version": "19.1.4",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/facebook/react",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "react-hook-form",
+    "version": "7.87.0",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/react-hook-form/react-hook-form",
+    "author": "Beier(Bill) Luo <bluebill1049@hotmail.com>",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "react-icons",
+    "version": "5.7.0",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "ssh://git@github.com:react-icons/react-icons",
+    "author": "Goran Gajic",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "react-is",
+    "version": "16.13.1",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/facebook/react",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "react-is",
+    "version": "18.3.1",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/facebook/react",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "react-refresh",
+    "version": "0.18.0",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/facebook/react",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "react-remove-scroll",
+    "version": "2.7.2",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/theKashey/react-remove-scroll",
+    "author": "Anton Korzunov <thekashey@gmail.com>",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "react-remove-scroll-bar",
+    "version": "2.3.8",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/theKashey/react-remove-scroll-bar",
+    "author": "Anton Korzunov <thekashey@gmail.com>",
+    "noticeFiles": []
+  },
+  {
+    "name": "react-resizable-panels",
+    "version": "2.1.9",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/bvaughn/react-resizable-panels",
+    "author": "Brian Vaughn <brian.david.vaughn@gmail.com>",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "react-smooth",
+    "version": "4.0.4",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/recharts/react-smooth",
+    "author": "JasonHzq",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "react-style-singleton",
+    "version": "2.2.3",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/theKashey/react-style-singleton",
+    "author": "Anton Korzunov (thekashey@gmail.com)",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "react-transition-group",
+    "version": "4.4.5",
+    "license": "BSD-3-Clause",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/reactjs/react-transition-group",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "recharts",
+    "version": "2.15.4",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/recharts/recharts",
+    "author": "recharts group",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "recharts-scale",
+    "version": "0.4.5",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/recharts/recharts-scale",
+    "author": "recharts group",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "regexparam",
+    "version": "3.0.0",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "lukeed/regexparam",
+    "author": "Luke Edwards",
+    "noticeFiles": [
+      "license"
+    ]
+  },
+  {
+    "name": "rollup",
+    "version": "4.63.1",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/rollup/rollup",
+    "author": "Rich Harris",
+    "noticeFiles": [
+      "LICENSE.md"
+    ]
+  },
+  {
+    "name": "scheduler",
+    "version": "0.26.0",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/facebook/react",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "semver",
+    "version": "6.3.1",
+    "license": "ISC",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/npm/node-semver",
+    "author": "GitHub Inc.",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "sonner",
+    "version": "2.0.8",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/emilkowalski/sonner",
+    "author": "Emil Kowalski <e@emilkowal.ski>",
+    "noticeFiles": [
+      "LICENSE.md"
+    ]
+  },
+  {
+    "name": "source-map-js",
+    "version": "1.2.1",
+    "license": "BSD-3-Clause",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "7rulnik/source-map-js",
+    "author": "Valentin 7rulnik Semirulnik <v7rulnik@gmail.com>",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "tailwind-merge",
+    "version": "3.6.0",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/dcastil/tailwind-merge",
+    "author": "Dany Castillo",
+    "noticeFiles": [
+      "LICENSE.md"
+    ]
+  },
+  {
+    "name": "tailwindcss",
+    "version": "4.3.3",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/tailwindlabs/tailwindcss",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "tapable",
+    "version": "2.3.3",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "http://github.com/webpack/tapable",
+    "author": "Tobias Koppers @sokra",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "tiny-invariant",
+    "version": "1.3.3",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/alexreardon/tiny-invariant",
+    "author": "Alex Reardon <alexreardon@gmail.com>",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "tinyglobby",
+    "version": "0.2.17",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/SuperchupuDev/tinyglobby",
+    "author": "Superchupu",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "tslib",
+    "version": "2.8.1",
+    "license": "0BSD",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/Microsoft/tslib",
+    "author": "Microsoft Corp.",
+    "noticeFiles": [
+      "LICENSE.txt"
+    ]
+  },
+  {
+    "name": "tsx",
+    "version": "4.23.13",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "privatenumber/tsx",
+    "author": "Hiroki Osame",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "tw-animate-css",
+    "version": "1.4.0",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "Wombosvideo/tw-animate-css",
+    "author": "Luca Bosin",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "undici-types",
+    "version": "7.24.6",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/nodejs/undici",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "update-browserslist-db",
+    "version": "1.3.2",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "browserslist/update-db",
+    "author": "Andrey Sitnik <andrey@sitnik.es>",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "use-callback-ref",
+    "version": "1.3.3",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/theKashey/use-callback-ref/",
+    "author": "theKashey <thekashey@gmail.com>",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "use-sidecar",
+    "version": "1.1.3",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/theKashey/use-sidecar",
+    "author": "theKashey <thekashey@gmail.com>",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "use-sync-external-store",
+    "version": "1.7.0",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/react/react",
+    "author": "",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "util-deprecate",
+    "version": "1.0.2",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "git://github.com/TooTallNate/util-deprecate",
+    "author": "Nathan Rajlich <nathan@tootallnate.net> (http://n8.io/)",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "vaul",
+    "version": "1.1.2",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/emilkowalski/vaul",
+    "author": "Emil Kowalski <e@emilkowal.ski>",
+    "noticeFiles": [
+      "LICENSE.md"
+    ]
+  },
+  {
+    "name": "victory-vendor",
+    "version": "36.9.2",
+    "license": "MIT AND ISC",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/FormidableLabs/victory",
+    "author": "Formidable",
+    "noticeFiles": []
+  },
+  {
+    "name": "vite",
+    "version": "7.3.6",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/vitejs/vite",
+    "author": "Evan You",
+    "noticeFiles": [
+      "LICENSE.md"
+    ]
+  },
+  {
+    "name": "wouter",
+    "version": "3.11.0",
+    "license": "Unlicense",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/molefrog/wouter",
+    "author": "Alexey Taktarov <molefrog@gmail.com>",
+    "noticeFiles": []
+  },
+  {
+    "name": "yallist",
+    "version": "3.1.1",
+    "license": "ISC",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/isaacs/yallist",
+    "author": "Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "yaml",
+    "version": "2.9.0",
+    "license": "ISC",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "github:eemeli/yaml",
+    "author": "Eemeli Aro <eemeli@gmail.com>",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "zod",
+    "version": "3.25.76",
+    "license": "MIT",
+    "verdict": "✅ safe",
+    "note": "Declared permissive license; preserve the upstream license and copyright notices.",
+    "source": "https://github.com/colinhacks/zod",
+    "author": "Colin McDonnell <zod@colinhacks.com>",
+    "noticeFiles": [
+      "LICENSE"
+    ]
+  }
+]
