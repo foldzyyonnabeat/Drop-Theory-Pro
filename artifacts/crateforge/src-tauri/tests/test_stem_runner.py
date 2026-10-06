@@ -668,9 +668,7 @@ class BundledHubDownloadIntegrationTests(unittest.TestCase):
                             partial_path = None
                             for _ in range(500):
                                 candidates = list(
-                                    pathlib.Path(cache_folder).glob(
-                                        "models--*/blobs/*.incomplete"
-                                    )
+                                    pathlib.Path(cache_folder).rglob("*.incomplete")
                                 )
                                 partial_path = next(
                                     (
@@ -685,7 +683,16 @@ class BundledHubDownloadIntegrationTests(unittest.TestCase):
                                 threading.Event().wait(0.01)
                             self.assertIsNotNone(
                                 partial_path,
-                                "the interrupted response did not leave resumable partial bytes",
+                                "the interrupted response did not leave resumable partial bytes; "
+                                + "cache files: "
+                                + repr(
+                                    [
+                                        str(candidate.relative_to(cache_folder))
+                                        for candidate in pathlib.Path(cache_folder).rglob("*")
+                                    ]
+                                )
+                                + "; requests: "
+                                + repr(fixture.get_requests()),
                             )
                             self.assertGreater(partial_path.stat().st_size, 0)
                             self.assertIsNone(
